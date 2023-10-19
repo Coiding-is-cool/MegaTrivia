@@ -36,9 +36,9 @@ def run_trivia(questions):
         answer = input(question.prompt)
         if answer == question.answer:
             score += 1
-            print("good job")
+            print("good job"\n\n)
         else:
-            print(f"The answer was: {question.answer}")
+            print(f"The answer was: {question.answer}\n\n")
     print (f"You got {score} out of {len(questions)} correct")
 
 run_trivia(questions)
